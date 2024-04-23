@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Numpuz Game</title>
+  <link rel="stylesheet" href="script.css">
 </head>
 <body>
-    <form action="#">
-        <div>
-            <label for="">  input number : </label>
-            <input type="number" name=""id="num">
-        </div>
-        <div>
-                <button onclick="addData()">Add Data</button>
-                <button onclick="sumData()">SumData</button>
-                <!-- <button onclick="resetData()">ResetData</button> -->
-        </div>
-    </form>
-    <label for=""id="result"></label>
-    <label for=""id="ans"></label>
-    <!-- <label for=""id="b"></label> -->
-    <script src="array1.js"></script>
-    </form>
+  <div id="game-container">
+    <h1 class="name">Numpuz Game</h1>
+  </div>
+  <br>
+  <div>
+    <button onclick="startGame3()">3x3</button>
+    <button onclick="startGame4()">4x4</button>
+    <button onclick="startGame5()">5x5</button>
+  </div>
+  <div id="options">
+    <h1 class="name">Numpuz !</h1>
+    <button id="start-game">Start Game</button>
+    <button id="reset-game">Reset Game</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
