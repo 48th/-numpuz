@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="">  input number : </label>
+            <input type="number" name=""id="num">
+        </div>
+        <div>
+                <button onclick="addData()">Add Data</button>
+                <button onclick="sumData()">SumData</button>
+                <!-- <button onclick="resetData()">ResetData</button> -->
+        </div>
+    </form>
+    <label for=""id="result"></label>
+    <label for=""id="ans"></label>
+    <!-- <label for=""id="b"></label> -->
+    <script src="array1.js"></script>
+    </form>
+</body>
+</html>
